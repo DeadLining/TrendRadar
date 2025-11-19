@@ -1539,7 +1539,7 @@ def format_title_for_platform(
         return result
 
     elif platform == "ntfy":
-        if link_url:
+        if False and link_url:
             formatted_title = f"[{cleaned_title}]({link_url})"
         else:
             formatted_title = cleaned_title
